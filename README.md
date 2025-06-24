@@ -54,12 +54,13 @@ Aplicația necesită o bază de date pentru a funcționa.
 
 #### 3.1 Crearea bazei de date
 Conectați-vă la serverul MySQL și rulați următoarea comandă SQL pentru a crea baza de date:
-
+```sql
 CREATE DATABASE asl_users_db;
+```
 
 #### 3.2 Crearea tabelului ”users”
 După crearea bazei de date, rulați comanda de mai jos pentru a crea tabelul necesar pentru stocarea utilizatorilor:
-
+```sql
 USE asl_users_db;
 
 CREATE TABLE 'users' (
@@ -70,16 +71,18 @@ CREATE TABLE 'users' (
   PRIMARY KEY ('id'),
   UNIQUE KEY 'username' ('username')
 );
+```
 
 #### 3.3 Configurarea conexiunii în cod
 Deschideți fișierul "src/database.py" într-un editor și modificați dicționarul "DB_CONFIG" cu utilizatorul și parola dumneavoastră de MySQL.
-
+```python
 DB_CONFIG = {
   'host': 'localhost',
   'user': 'root', # Modificati aici daca este necesar
   'password': 'parola_dumneavoastra_mysql',
   'database': 'asl_users_db'
 }
+```
 
 ### Pasul 4: Descărcarea Modelului Pre-antrenat
 Fișierul cu modelul antrenat (model.joblib) are o dimensiune prea mare pentru a fi inclus direct în acest repository. Pentru a putea utiliza funcționalitatea "4. Testeaza Modelul" imediat după instalare, un model pre-antrenat poate fi descărcat de la următorul link:
