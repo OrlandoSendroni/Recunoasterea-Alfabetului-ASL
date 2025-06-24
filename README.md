@@ -87,7 +87,7 @@ DB_CONFIG = {
 ### Pasul 4: Descărcarea Modelului Pre-antrenat
 Fișierul cu modelul antrenat (model.joblib) are o dimensiune prea mare pentru a fi inclus direct în acest repository. Pentru a putea utiliza funcționalitatea "4. Testeaza Modelul" imediat după instalare, un model pre-antrenat poate fi descărcat de la următorul link:
 
-(Introdu LINK pentru model)
+(https://drive.google.com/file/d/1zsuPT2Pc5q6J1BuYBDKOY6AF5Bi8GfD1/view?usp=drive_link)
 
 Instrucțiuni:
 1. Descărcați fișierul "model.joblib" de la linkul de mai sus.
