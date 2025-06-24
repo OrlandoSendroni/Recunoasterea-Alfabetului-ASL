@@ -1,5 +1,7 @@
 # Recunoasterea-Alfabetului-ASL - Proiect de Licență
 
+**Link Repository:** (https://github.com/OrlandoSendroni/Recunoasterea-Alfabetului-ASL/tree/main)
+
 Acest proiect reprezintă o soluție software completă, sub forma unei aplicații desktop cu interfață grafică (GUI), destinată recunoașterii în timp real a alfabetului static din Limbajul Semnelor American (ASL). Aplicația acoperă întregul flux de lucru al unui proiect de machine learning: colectarea datelor, crearea setului de date, antrenarea modelului și testarea interactivă.
 
 ## Tehnologii Folosite
