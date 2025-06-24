@@ -1,0 +1,10 @@
+PySide6
+qt-material
+mysql-connector-python
+bcrypt
+opencv-python
+numpy
+pandas
+mediapipe
+joblib
+scikit-learn
